@@ -1,0 +1,13 @@
+{
+  "appName": "Birdie",
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "login": "Login",
+    "disclaimer": "By logging in, you agree to our <a href=\"https://birdie.com/privacy\">Terms of Service and Privacy Policy</a>.",
+    "noAccount": "Don't have an account? <a href=\"/register\">Sign up</a>",
+    "or": "or"
+  }
+}

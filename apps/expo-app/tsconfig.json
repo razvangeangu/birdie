@@ -1,0 +1,20 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "composite": true,
+    "noEmit": false,
+    "paths": {
+      "@/*": ["./*"],
+      "@birdie/design-system": ["../../packages/design-system/src"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "../../packages/design-system/src/**/*.ts",
+    "../../packages/design-system/src/**/*.tsx"
+  ]
+}
